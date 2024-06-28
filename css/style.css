@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #65df6a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact_form {
+  background-color: #a5bea6;
+  max-width: 600px; 
+  width: 100%; 
+  padding: 20px; 
+  margin-top: 20px;
+  border-radius: 15px;
+}
+.form-group {
+  width: 100%;
+  text-align: left; 
+  margin-bottom: 15px; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-column {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  margin-bottom: 15px;
+}
+
+.form-column .form-group {
+  width: calc(50% - 10px); 
+}
+
+input:focus-visible {
+    color: #022E02;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+button {
+    width: 100%;
+  padding: 10px 20px;
+  background-color: #0B8C0D ;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #CAF3CB;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input::placeholder,
+textarea::placeholder,
+h1 {
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#fname,
+#lname,
+#femail,
+#fphone {
+  background-color: #bff7bd;
+}
+#country,
+#address{
+    background-color: #93FFA2 ;
+}
+
+#subject{
+    background-color: #99E394 ;
+}
